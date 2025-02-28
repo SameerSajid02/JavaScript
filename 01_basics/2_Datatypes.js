@@ -8,7 +8,7 @@ let age = 18
 let isLoggedIn = false
 let state;
 
-//Primitive Datatype
+//Primitive Datatype (Store in Stack)
 // number => 2 to power 53
 // bigint
 // string => ""
@@ -17,7 +17,7 @@ let state;
 // undefined => 
 // symbol => unique
 
-//Non-Primitive Datatype
+//Non-Primitive Datatype (Store in Heap)
 // object
 //Arrays
 
