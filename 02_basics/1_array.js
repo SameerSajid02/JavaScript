@@ -16,7 +16,7 @@ const myArr2 = new Array(1, 2, 3, 4)
 console.log(myArr.includes(9)); // will provide OP in boolean, If Value is in array or not
 console.log(myArr.indexOf(3)); 
 
-const newArr = myArr.join();  // Will convert Array nto string 
+const newArr = myArr.join();  // Will convert Array into string 
 
 console.log(typeof myArr);  // Object
 console.log(typeof newArr);  // String

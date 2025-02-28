@@ -3,7 +3,7 @@ const arr2 = [6,7,8,9,10]
 
 // arr1.push(arr2) // wrong approach to combime array since it will add array into array
 // console.log(arr1)
-// console.log(arr1[5][1])
+// console.log(arr1[5][1]) // To access element from array into array
 
 // const newArr = arr1.concat(arr2)   // Can be done like this but not good approach
 // console.log(newArr);
