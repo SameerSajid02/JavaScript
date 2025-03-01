@@ -1,11 +1,8 @@
 "use strict"; // treat all JS code as newer version
 
-
-
-
-let name = "Sameer"
-let age = 18
-let isLoggedIn = false
+let name = "Sameer";
+let age = 18;
+let isLoggedIn = false;
 let state;
 
 //Primitive Datatype (Store in Stack)
@@ -14,7 +11,7 @@ let state;
 // string => ""
 // boolean => true/false
 // null => standalone value
-// undefined => 
+// undefined =>
 // symbol => unique
 
 //Non-Primitive Datatype (Store in Heap)

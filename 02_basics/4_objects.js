@@ -28,12 +28,11 @@ const obj4 = { 5: "a", 6: "b" };
 
 // const obj3 = { obj1, obj2 } // It will not combine instead it will make a nested object {{},{}} like this
 
-// const obj3 = Object.assign({}, obj1, obj2, obj4) // Can combine like this 
+// const obj3 = Object.assign({}, obj1, obj2, obj4) // Can combine like this
 const obj3 = { ...obj1, ...obj2 }; //Best approach to combine Objects
 // console.log(obj3);
 
-
-// === Array of Object === 
+// === Array of Object ===
 const users = [
   {
     id: 1,
@@ -49,5 +48,3 @@ const users = [
   },
 ];
 users[1].email; // Accessing Array of Object
-
-
