@@ -22,3 +22,10 @@ const user = {
     console.log(this.userName); // it will give undefined since Current context only work in obj
   }
   
+
+
+
+
+
+
+  
