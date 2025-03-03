@@ -28,7 +28,7 @@ const myCoding = [
   },
 ];
 
-myCoding.forEach((item, index) => {
+myCoding.forEach((item) => {
   console.log(item.languageName);
 });
 
